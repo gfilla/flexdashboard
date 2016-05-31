@@ -1,4 +1,5 @@
 
+
 /*
  Dashboard CSS from Keen IO Dashboards
  (https://github.com/keen/dashboards)
@@ -19,12 +20,17 @@ body hr {
   text-decoration: none;
 }
 
+
+.navbar{background:#152935;}
 .navbar-logo {
-  margin-top: 1px;
+  margin-top: .5em;
+  padding: 0 0.5rem;
 }
 
 .navbar-logo img {
-  margin-right: 12px;
+  //margin-right: 12px;
+  height:20px;
+ 
 }
 
 .navbar-author {
@@ -599,7 +605,6 @@ body hr {
   padding-left: 10px;
   padding-right: 10px;
   visibility: hidden;
-  overflow: auto;
 }
 
 .section.sidebar form p:first-child {
