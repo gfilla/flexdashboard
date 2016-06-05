@@ -309,11 +309,14 @@ var FlexDashboard = (function () {
     return a;
   }
 
-  // auto generate a link from an icon name (e.g. twitter) when possible
+  
+ var dsx_custom_tweet = encodeURIComponent('Shiny app demoed at #SparkSummit https://ibmdatascience.shinyapps.io/SparkSummitDemo/#data-exploration #datascience')
+ //"twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
+ // auto generate a link from an icon name (e.g. twitter) when possible
   function maybeGenerateLinkFromIcon(iconName, a) {
 
      var serviceLinks = {
-      "twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
+      "twitter": "https://twitter.com/share?text=" +dsx_custom_tweet,
       "facebook": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]="+encodeURIComponent(location.href),
       "google-plus": "https://plus.google.com/share?url="+encodeURIComponent(location.href),
       "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(location.href) + "&title=" + encodeURIComponent(document.title),
