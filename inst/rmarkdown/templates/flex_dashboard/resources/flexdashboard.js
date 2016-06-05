@@ -310,7 +310,7 @@ var FlexDashboard = (function () {
   }
 
   
- var dsx_custom_tweet = encodeURIComponent('Shiny app demoed at #SparkSummit https://ibmdatascience.shinyapps.io/SparkSummitDemo/#data-exploration #datascience')
+ var dsx_custom_tweet = encodeURIComponent('Shiny app demoed at #SparkSummit #datascience')
  //"twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
  // auto generate a link from an icon name (e.g. twitter) when possible
   function maybeGenerateLinkFromIcon(iconName, a) {
