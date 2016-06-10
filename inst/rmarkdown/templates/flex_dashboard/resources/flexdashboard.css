@@ -25,12 +25,13 @@ body hr {
 .navbar-logo {
   margin-top: .5em;
   padding: 0 0.5rem;
+  background-image: url("https://raw.githubusercontent.com/IBMDataScience/SparkSummitDemo/master/scix.png");
 }
 
 .navbar-logo img {
   //margin-right: 12px;
   height:20px;
- 
+
 }
 
 .navbar-author {
@@ -695,6 +696,3 @@ table.dataTable thead th {
 .mobile-figure {
   display: none;
 }
-
-
-
